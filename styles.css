@@ -12,7 +12,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
-  grid-template-columns: 300px 1fr; /* Fixed width for sidebar */
+  grid-template-columns: 300px 1fr; 
 }
 
 .sidebar {
@@ -27,9 +27,9 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   gap: 1rem;
   position: sticky;
-  top: 2rem; /* Keeps the sidebar stuck after scrolling down */
+  top: 2rem; 
   align-self: start;
-  height: fit-content; /* Ensures sidebar fits its content height */
+  height: fit-content; 
 }
 
 .profile-pic img {
@@ -88,15 +88,15 @@ body {
 .contact-item .info {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* This will center the label + value vertically */
-  line-height: 1.2; /* Optional: tighten line spacing */
+  justify-content: center; 
+  line-height: 1.2; 
 }
 
 .contact-item .label {
   font-weight: 800;
   color: #5b2a6d;
   font-size: 0.85rem;
-  margin-bottom: 0.15rem; /* Reduce gap between label and value */
+  margin-bottom: 0.15rem;
 }
 
 .social-icons {
