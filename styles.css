@@ -7,12 +7,14 @@ body {
 
 .layout {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 300px 1fr;
   gap: 2rem;
+
+  margin: 40px auto;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-  grid-template-columns: 300px 1fr; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
 }
 
 .sidebar {
@@ -122,35 +124,42 @@ body {
   border-radius: 20px;
   padding: 2rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  width: 100%;
 }
 
 .top-nav {
   display: flex;
-  justify-content: center;
-  gap: 3rem;
-  background-color: #5e4b7d;
-  padding: 1rem 0;
-  border-radius: 20px;
-  margin-bottom: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  background: #5e4b7d;
+  flex-wrap: nowrap;
+  padding: 12px 30px;
+  border-radius: 40px;
+  margin-bottom: 30px;
 }
 
 .top-nav a {
   text-decoration: none;
-  color: #f0e9f9;
+  color: #e9e2f6;
+
   font-weight: 700;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  border-radius: 12px;
+  font-size: 0.95rem;
+
+  padding: 8px 14px;
+
+  border-radius: 20px;
+
+  white-space: nowrap;
+
+  transition: 0.2s;
 }
 
 .top-nav a.active {
-  color: #ffd966;
-  box-shadow: inset 0 -4px 0 #ffd966;
+  background: #ffd966;
+  color: #4a3566;
 }
 
 .top-nav a:hover {
-  color: #ffd966;
+  background: rgba(255,255,255,0.15);
 }
 
 .content-section {
@@ -777,6 +786,26 @@ h2 {
   font-size: 0.85rem;
   color: #3a1a4d;
   margin: 0;
+}
+
+.project-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+
+.project-buttons a {
+  background: #5b2a6d;
+  color: white;
+  text-decoration: none;
+  padding: .4rem .8rem;
+  border-radius: 10px;
+  font-size: .9rem;
+}
+
+.project-buttons a:hover {
+  background: #7a4c9f;
 }
 
 

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Passport Journey</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- TITLE VIEW -->
+  <section id="view-title" class="view active passport-home">
+    <div class="passport-card">
+  
+      <div class="passport-tag">
+        <h2>Of Food & Place</h2>
+      </div>
+  
+      <h1 class="passport-title">A PASSPORT JOURNEY</h1>
+      <div class="cover-signature">
+        by Sanya Joseph © 2026
+      </div>
+  
+      <div class="passport-buttons">
+        <button class="btn primary" id="btnStart">Enter ✈</button>
+      </div>
+  
+    </div>
+  </section>
+
+  <!-- GRID VIEW -->
+  <section id="view-grid" class="view">
+    <div class="container">
+      <div class="topbar">
+  
+        <div class="passport-tag big">
+          <h2>Choose a Country</h2>
+        </div>
+      
+        <div class="top-buttons">
+          <button class="tag-btn" id="btnHomeFromGrid">Back to Home</button>
+        </div>
+      
+      </div>
+      <div id="tiles" class="grid"></div>
+    </div>
+  </section>
+
+  <!-- DETAIL VIEW -->
+  <section id="view-detail" class="view">
+    <div class="detailContainer">
+  
+      <div class="detail-actions">
+        <button class="tag-btn" id="btnBackToGrid">← Back to Grid</button>
+        <button class="tag-btn" id="btnHomeFromDetail">Back to Home</button>
+      </div>
+  
+      <div class="passport-page centered-page">
+        <div class="passport-media">
+          <img id="dImg" src="" alt="Country overview" />
+        
+          <div class="img-note">
+            click to learn more
+          </div>
+        
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  <div id="imgPopup" class="popup">
+    <img id="popupImg" src="">
+  </div>
+  
+
+  <!-- External JS -->
+  <script src="app.js"></script>
+</body>
+</html>
