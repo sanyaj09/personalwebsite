@@ -2,496 +2,660 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sanya Joseph | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="styles.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanya Joseph — Technology Analyst | Solutions Architecture, Data & Product</title>
+  <meta name="description" content="Sanya Joseph is a technology professional working across solutions architecture, data engineering, enterprise applications, AI, and analytics — designing solutions from requirements through delivery." />
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <div class="layout">
-    <aside class="sidebar">
-      <div class="profile-pic">
-        <img src="me.jpeg" alt="Sanya Joseph" />
-      </div>
-      <h1>Sanya Joseph</h1>
-      <div class="tags">
-        <div class="tag">M.S. Data Science & Analytics Student</div>
-        <div class="tag">B.S. CS & ITWS Graduate</div>
-        <div class="tag">Data Analyst, Data Engineer, & Graphic Designer</div>
-      </div>
-      <div class="contact-info">
-        <div class="contact-item">
-          <i class="fas fa-envelope"></i>
-          <div class="info">
-            <div class="label">EMAIL</div>
-            <div>sanyaj863@gmail.com</div>
-          </div>
-        </div>
-        <div class="contact-item">
-          <i class="fas fa-phone"></i>
-          <div class="info">
-            <div class="label">PHONE</div>
-            <div>+1 (732)-986-3401</div>
-          </div>
-        </div>
-        <div class="contact-item">
-          <i class="fas fa-map-marker-alt"></i>
-          <div class="info">
-            <div class="label">LOCATION</div>
-            <div>Edison, NJ</div>
-          </div>
-        </div>
-      </div>
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/sanyajoseph/"><i class="fab fa-linkedin"></i></a>
-      </div>
-    </aside>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <main class="main-content">
-      <nav class="top-nav">
-        <a href="#about" class="tab-link active">About</a>
-        <a href="#education" class="tab-link">Education</a>
-        <a href="#experience" class="tab-link">Experience</a>
-        <a href="#projects" class="tab-link">Projects</a>
-        <a href="#leadership" class="tab-link">Club Leadership</a>
-        <a href="#certifications" class="tab-link">Certifications</a>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="nav-brand" href="#top">Sanya Joseph</a>
 
-        
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation menu">
+        <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+
+      <nav class="nav-links" id="primary-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#education">Education &amp; Leadership</a>
+        <a href="#contact">Contact</a>
       </nav>
+    </div>
+  </header>
 
-      <section id="about" class="content-section active">
-        <h2>About Me</h2>
-        <p>I am a passionate Data Science & Analytics student with a unique blend of technical and creative expertise. With a dual background in Computer Science and ITWS, and a minor in Graphic Design, I thrive at the intersection of technology, creativity, and business insights.</p>
-        <p>My professional experience includes impactful internships at Johnson & Johnson, where I focused on data visualization, AI-driven automation, and optimizing business processes. I enjoy solving complex problems by merging analytical thinking with user-centered design.</p>
-        <p>I am driven by continuous learning and strive to bridge the gap between data, design, and business impact through innovative and scalable solutions.</p>
+  <main id="main">
 
-        <h3>Strengths</h3>
-        <div class="strengths-grid">
-          <div class="strength-card">
-            <div class="icon"><i class="fas fa-chart-line"></i></div>
-            <div>
-              <h4>Data Analytics</h4>
-              <p>Skilled in analyzing large datasets, deriving actionable insights, and visualizing data to support business decisions and strategic initiatives.</p>
-            </div>
+    <!-- ============================= HERO ============================= -->
+    <section class="hero" aria-labelledby="hero-name">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1 id="hero-name" class="typewriter" aria-label="Sanya Joseph">
+            <span class="tw-sizer" aria-hidden="true">Sanya Joseph</span>
+            <span class="tw-text" aria-hidden="true">Sanya Joseph</span>
+          </h1>
+          <p class="hero-descriptor">Technology Analyst <span aria-hidden="true">·</span> Solutions Architecture <span aria-hidden="true">·</span> Data Engineering <span aria-hidden="true">·</span> Product</p>
+          <p class="hero-statement">Building technology solutions across data, architecture, AI, and digital products.</p>
+          <p class="hero-support">I work across technology, data, architecture, and product to turn complex business needs into practical digital solutions — from early requirements and system design through development coordination, testing, and delivery.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#experience">View Experience</a>
+            <a class="btn btn--ghost" href="#projects">View Projects</a>
           </div>
-          <div class="strength-card">
-            <div class="icon"><i class="fas fa-database"></i></div>
-            <div>
-              <h4>Data Pipelining</h4>
-              <p>Experience in building automated data pipelines for efficient processing, integration, and management of structured and unstructured data.</p>
-            </div>
-          </div>
-          <div class="strength-card">
-            <div class="icon"><i class="fas fa-code"></i></div>
-            <div>
-              <h4>Software Engineering</h4>
-              <p>Proficient in developing scalable software solutions, focusing on clean architecture, optimization, and end-to-end development workflows.</p>
-            </div>
-          </div>
-          <div class="strength-card">
-            <div class="icon"><i class="fas fa-paint-brush"></i></div>
-            <div>
-              <h4>Graphic Design</h4>
-              <p>Creative approach to problem-solving with expertise in visual storytelling, UI/UX design, and producing engaging graphics for digital platforms.</p>
-            </div>
-          </div>
+
+          <ul class="hero-links">
+            <li>
+              <a href="https://www.linkedin.com/in/sanyajoseph/" target="_blank" rel="noopener">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1-.02 5 2.5 2.5 0 0 1 .02-5zM3 8.98h4V21H3zM9.5 8.98h3.83v1.64h.05c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.44c0-1.3-.03-2.97-1.82-2.97-1.81 0-2.08 1.41-2.08 2.87V21h-4z"/></svg>
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/sanyaj09" target="_blank" rel="noopener">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 .5C5.73.5.99 5.24.99 11.5c0 4.85 3.15 8.96 7.5 10.41.55.1.75-.24.75-.53 0-.26-.01-1.13-.02-2.05-3.05.66-3.7-1.3-3.7-1.3-.5-1.27-1.22-1.61-1.22-1.61-1-.68.08-.67.08-.67 1.1.08 1.68 1.13 1.68 1.13.98 1.68 2.57 1.19 3.2.91.1-.71.38-1.19.69-1.46-2.44-.28-5-1.22-5-5.43 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.4.11-2.92 0 0 .92-.3 3.02 1.13a10.4 10.4 0 0 1 5.5 0c2.1-1.43 3.02-1.13 3.02-1.13.6 1.52.22 2.64.11 2.92.7.77 1.13 1.75 1.13 2.95 0 4.22-2.57 5.15-5.02 5.42.39.34.74 1 .74 2.02 0 1.46-.01 2.63-.01 2.99 0 .29.2.64.76.53 4.34-1.45 7.48-5.56 7.48-10.41C23.01 5.24 18.27.5 12 .5z"/></svg>
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="mailto:sanyaj863@gmail.com">
+                <svg class="icon icon--stroke" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2.75" y="4.75" width="18.5" height="14.5" rx="2"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg>
+                Email
+              </a>
+            </li>
+            <li>
+              <a href="Sanya%20Joseph%20Resume_Jan2026.pdf" target="_blank" rel="noopener">
+                <svg class="icon icon--stroke" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3.5v11"/><path d="m7.5 10.5 4.5 4.5 4.5-4.5"/><path d="M4.5 20h15"/></svg>
+                Resume
+              </a>
+            </li>
+          </ul>
         </div>
-        <div class="resume-button">
-          <a href="personalwebsite/Sanya Joseph Resume_Jan2026.pdf" target="_blank">View Resume</a>
-        </div>
-      </section>
 
-      <section id="education" class="content-section">
-        <h2>Education</h2>
-        <div class="education-timeline">
-      
-          <div class="edu-item">
-            <div class="edu-logo">
-              <img src="rpi.png" alt="RPI Logo" />
-            </div>
-            <div class="edu-content">
-              <h3>Rensselaer Polytechnic Institute (RPI)</h3>
-              <p class="edu-location">Troy, NY</p>
-              <p class="edu-date">Aug 2025 – May 2026</p>
-              <ul>
-                <li>M.S. Data Science & Data Analytics (Information Technology)</li>
-                <li>Dean’s List Recipient, GPA: 3.97/4.0</li>
-              </ul>
-              <div class="coursework">
-                <strong>Relevant Coursework:</strong> Data Resource Management & ETL, Foundations & Applied Data Science, Software Development, Data Analytics & Visualization
-              </div>
-            </div>
-          </div>
-      
-          <div class="edu-item">
-            <div class="edu-logo">
-              <img src="rpi.png" alt="RPI Logo" />
-            </div>
-            <div class="edu-content">
-              <h3>Rensselaer Polytechnic Institute (RPI)</h3>
-              <p class="edu-location">Troy, NY</p>
-              <p class="edu-date">Aug 2022 – May 2025</p>
-              <ul>
-                <li>B.S. Computer Science & Information Technology & Web Science (ITWS)</li>
-                <li>Minor: Graphic Design</li>
-                <li>Dean’s List Recipient, GPA: 3.5/4.0</li>
-              </ul>
-              <div class="coursework">
-                <strong>Relevant Coursework:</strong> Intro to Python, Data Structures, Algorithms, Computer Organization, Discrete Mathematics/Theory of Computing, Full Stack Web Development, Multivariable Calculus, Statistical Methods, Web Science Development, Graphic Design
-              </div>
-            </div>
-          </div>
-      
+        <div class="hero-portrait">
+          <img src="me.jpeg" alt="Portrait of Sanya Joseph" width="380" height="475" />
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="leadership" class="content-section">
-        <h2>Leadership & Activities</h2>
-        <div class="leadership-grid">
-      
-          <div class="leadership-card">
-            <div class="leadership-logo">
-              <img src="itws.png" alt="ITWS Leadership Logo" />
-            </div>
-            <div class="leadership-content">
-              <h3>ITWS Student Leadership</h3>
-              <p class="role">President, previously Social Media Chair</p>
-              <p class="leadership-date">April 2023 – April 2025</p>
-              <p class="leadership-location">Troy, NY</p>
-              <ul>
-                <li>Led the ITWS Student Leadership Council, aligning initiatives with program goals and serving as the primary liaison to enhance student experience and drive improvements.</li>
-              </ul>
-            </div>
-          </div>
-      
-          <div class="leadership-card">
-            <div class="leadership-logo">
-              <img src="acmw.png" alt="ACM-W Logo" />
-            </div>
-            <div class="leadership-content">
-              <h3>Association for Computing Machinery – Women in Computing (ACM-W)</h3>
-              <p class="role">Chair/President, previously Webmaster, General Active Member</p>
-              <p class="leadership-date">Jan 2023 – May 2025</p>
-              <p class="leadership-location">Troy, NY</p>
-              <ul>
-                <li>Led the ACM-W Chapter, managing 10+ initiatives aligned with its mission, while fostering partnerships with 5+ on-campus resources, clubs, and administration to support chapter goals.</li>
-              </ul>
-            </div>
-          </div>
-      
+    <!-- ============================= ABOUT ============================= -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">01 — About</p>
+          <h2 id="about-heading">About Me</h2>
+        </header>
+
+        <div class="about-copy reveal">
+          <p>I'm a technology professional focused on designing and delivering solutions that connect business needs with technical implementation. My experience spans enterprise applications, solution architecture, data engineering, analytics, AI, and product development.</p>
+          <p>I enjoy working across the full solution lifecycle — understanding requirements, designing workflows and architecture, coordinating technical teams, working with data, and helping move solutions through testing and delivery.</p>
+          <p>My background in computer science, data science, information technology, and design gives me a multidisciplinary approach: I can consider the technical architecture, data, business process, user experience, and overall product together.</p>
         </div>
-      </section>
-           
 
-      <section id="experience" class="content-section">
-        <h2>Experience</h2>
-        <div class="experience-list">
-          <div class="experience-card">
-            <div class="exp-header">
-              <img src="nyl.png" alt="NYL Logo" />
-              <div>
-                <h3>Part-Time Technology Analyst</h3>
-                <p class="company-location">New York Life – New York, NY</p>
-                <p class="exp-date">Aug 2025 - Present</p>
-              </div>
-            </div>
+        <h3 class="subsection-heading reveal">What I Do</h3>
+
+        <div class="expertise-grid">
+          <article class="expertise reveal">
+            <p class="expertise-index">Area 01</p>
+            <h4>Solutions Architecture</h4>
             <ul>
-              <li>Leading initiation of a Reinsurance application, designing UI mockups and coordinating development teams, Security (SSO), onboarding, and QA testing for delivery.
+              <li>Solution design</li>
+              <li>System architecture</li>
+              <li>Architecture diagrams</li>
+              <li>Enterprise integrations</li>
+              <li>Middleware</li>
+              <li>Security &amp; SSO</li>
+              <li>Technical documentation</li>
+              <li>Legacy modernization</li>
+            </ul>
+          </article>
+
+          <article class="expertise reveal">
+            <p class="expertise-index">Area 02</p>
+            <h4>Data Engineering &amp; Analytics</h4>
+            <ul>
+              <li>ETL</li>
+              <li>Data pipelines</li>
+              <li>Data warehousing</li>
+              <li>Data modeling</li>
+              <li>Database design</li>
+              <li>Data dictionaries</li>
+              <li>Dashboards</li>
+              <li>Data visualization</li>
+            </ul>
+          </article>
+
+          <article class="expertise reveal">
+            <p class="expertise-index">Area 03</p>
+            <h4>Product &amp; Application Delivery</h4>
+            <ul>
+              <li>Requirements gathering</li>
+              <li>Business analysis</li>
+              <li>UI mockups</li>
+              <li>Workflow design</li>
+              <li>Development coordination</li>
+              <li>QA &amp; UAT</li>
+              <li>Stakeholder collaboration</li>
+              <li>App modernization</li>
+            </ul>
+          </article>
+
+          <article class="expertise reveal">
+            <p class="expertise-index">Area 04</p>
+            <h4>AI &amp; Emerging Technology</h4>
+            <ul>
+              <li>Machine learning</li>
+              <li>Predictive modeling</li>
+              <li>Natural language processing</li>
+              <li>Generative AI &amp; LLMs</li>
+              <li>Prompt engineering</li>
+              <li>Semantic data models</li>
+              <li>AI-enabled analytics</li>
+              <li>Cloud AI services</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="tools reveal">
+          <h4 class="tools-heading">Tools &amp; Technologies</h4>
+          <ul class="tag-list">
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>R</li>
+            <li>MySQL</li>
+            <li>PostgreSQL</li>
+            <li>Microsoft SQL Server</li>
+            <li>Toad / Oracle</li>
+            <li>MongoDB</li>
+            <li>AWS</li>
+            <li>SageMaker</li>
+            <li>Redshift</li>
+            <li>Power BI</li>
+            <li>Tableau</li>
+            <li>Looker Studio</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Postman</li>
+            <li>VS Code</li>
+            <li>Figma</li>
+            <li>Photoshop</li>
+            <li>Illustrator</li>
+            <li>InDesign</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= EXPERIENCE ============================= -->
+    <section id="experience" class="section section--tint" aria-labelledby="experience-heading">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">02 — Experience</p>
+          <h2 id="experience-heading">Experience</h2>
+          <p class="section-sub">Building solutions across enterprise technology, data, analytics, and digital products.</p>
+        </header>
+
+        <ol class="timeline">
+          <li class="company reveal">
+            <div class="company-logo">
+              <img src="nyl.png" alt="New York Life Insurance Company logo" />
+            </div>
+            <div class="company-head">
+              <h3>New York Life Insurance Company</h3>
+              <p class="company-meta">May 2025 – Present <span aria-hidden="true">·</span> New York, NY</p>
+            </div>
+
+            <div class="roles">
+              <article class="role">
+                <h4>Associate, Technology Analyst</h4>
+                <p class="role-meta">June 2026 – Present <span aria-hidden="true">·</span> New York, NY</p>
+                <ul>
+                  <li>Drive enterprise modernization across 3+ strategic initiatives by designing current-, interim-, and future-state architectures, creating reusable solution designs and technical documentation to improve cross-team alignment and long-term maintainability.</li>
+                  <li>Advance platform modernization across 2+ enterprise systems by evaluating legacy technologies and designing scalable data models, enabling future system migrations and modernized processing capabilities.</li>
+                  <li>Accelerate delivery across 4+ cross-functional teams by translating complex business requirements into functional and technical solutions, partnering with business, engineering, security, and QA stakeholders throughout the development lifecycle.</li>
+                </ul>
+              </article>
+
+              <article class="role">
+                <h4>Part-Time Technology Analyst</h4>
+                <p class="role-meta">Aug 2025 – June 2026 <span aria-hidden="true">·</span> Remote</p>
+                <ul>
+                  <li>Leading initiation of a Reinsurance application, designing UI mockups and coordinating development teams, Security (SSO), onboarding, and QA testing for delivery.</li>
+                  <li>Designing and consolidating a commissions data engine to unify data from multiple systems, supporting improved reporting and data consistency.</li>
+                  <li>Creating centralized middleware documentation and architecture diagrams, consolidating system knowledge into a single reference for cross-team use. Additionally, acting as a business analyst for two intakes.</li>
+                </ul>
+              </article>
+
+              <article class="role">
+                <h4>Technology Analyst Intern</h4>
+                <p class="role-meta">May 2025 – Aug 2025 <span aria-hidden="true">·</span> New York, NY</p>
+                <ul>
+                  <li>Designed and documented architecture diagrams for multiple use cases and presented to Security and Enterprise Architecture boards to drive approvals.</li>
+                  <li>Built a relational database and data dictionary (1K+ rows, 10 metadata fields) for the Annuities Data Warehouse, and created a custom OpenAI GPT for natural language querying.</li>
+                  <li>Led ETL processing of 100K+ annuities records using Toad for Oracle, performing data preparation and co-developing a predictive AI model in AWS SageMaker.</li>
+                </ul>
+              </article>
+            </div>
+          </li>
+
+          <li class="company reveal">
+            <div class="company-logo">
+              <img src="jnj.png" alt="Johnson &amp; Johnson logo" />
+            </div>
+            <div class="company-head">
+              <h3>Johnson &amp; Johnson</h3>
+              <p class="company-meta">May 2023 – May 2025 <span aria-hidden="true">·</span> Three progressive roles</p>
+            </div>
+
+            <div class="roles">
+              <article class="role">
+                <h4>Digital Data &amp; Analytics Part-Time Co-Op</h4>
+                <p class="role-meta">Aug 2024 – May 2025 <span aria-hidden="true">·</span> Innovative Medicine, Remote</p>
+                <ul>
+                  <li>Led migration from Microsoft InfoPath to PowerApps, gathering requirements and improving data collection workflows and user experience.</li>
+                  <li>Delivered Looker Studio dashboards providing real-time insights for 18 manufacturing sites, supporting GMP compliance and decision-making.</li>
+                  <li>Identified data inconsistencies and built interactive dashboards, driving $4K+ in projected savings through standardized reporting.</li>
+                </ul>
+              </article>
+
+              <article class="role">
+                <h4>Technology &amp; Data Insights Intern</h4>
+                <p class="role-meta">May 2024 – Aug 2024 <span aria-hidden="true">·</span> Innovative Medicine, Titusville, NJ</p>
+                <ul>
+                  <li>Built an AI-powered Power BI self-serve analytics tool using semantic data models, reducing dashboard development time by 75% and supporting 200+ users.</li>
+                  <li>Improved AI-generated insight accuracy by 30% through UAT collaboration and prompt engineering, delivering an enterprise dashboard used by 50+ stakeholders.</li>
+                  <li>Led the Social Pillar of TICC, organizing 10+ events and enhancing the experience of 100+ interns and co-ops with 90%+ positive feedback.</li>
+                </ul>
+              </article>
+
+              <article class="role">
+                <h4>Emerging Technologies &amp; Solutions Intern</h4>
+                <p class="role-meta">May 2023 – Aug 2023 <span aria-hidden="true">·</span> Quality &amp; Compliance, Bridgewater, NJ</p>
+                <ul>
+                  <li>Enhanced team collaboration by improving SharePoint lists to manage member profiles, benefiting 50+ team members.</li>
+                  <li>Designed interactive dashboards and mockups using Power BI and R to visualize SCIA data for 100+ stakeholders.</li>
+                  <li>Automated document processing using Python (Pandas, Tabula), Excel Macros, and Power Query, saving 50+ hours through reusable workflows.</li>
+                </ul>
+              </article>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================= PROJECTS ============================= -->
+    <section id="projects" class="section" aria-labelledby="projects-heading">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">03 — Projects</p>
+          <h2 id="projects-heading">Selected Projects</h2>
+          <p class="section-sub">A selection of work across data, AI, software, architecture, and digital experiences.</p>
+        </header>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <p class="project-category">Full Stack <span aria-hidden="true">·</span> UI/UX</p>
+            <h3>Food &amp; Landmarks Passport</h3>
+
+            <p class="project-label">Problem</p>
+            <p>Cultural reference material on global food and architecture is scattered across sources and rarely designed for exploration.</p>
+
+            <p class="project-label">What I built</p>
+            <p>An interactive web experience structured as a digital passport covering 15 countries, with custom illustration, per-country views, and a navigation model built from scratch in vanilla JavaScript.</p>
+
+            <p class="project-label">Stack</p>
+            <ul class="tag-list tag-list--sm">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Illustrator</li>
+              <li>Figma</li>
+            </ul>
+
+            <p class="project-label">Outcome</p>
+            <p>A self-contained, fully responsive product pairing an original visual system with a hand-built front end.</p>
+
+            <div class="project-links">
+              <a href="passport/index.html" target="_blank" rel="noopener">Open live project <span class="arrow" aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <p class="project-category">Analytics <span aria-hidden="true">·</span> Visualization</p>
+            <h3>Social Media Engagement Analytics</h3>
+
+            <p class="project-label">Problem</p>
+            <p>Creators and social teams lack a consolidated view of what actually drives engagement across competing platforms.</p>
+
+            <p class="project-label">What I built</p>
+            <p>An analytics dashboard comparing viral content trends across TikTok, Instagram, Twitter, and YouTube, with interactive charts and a visual guide to platform-specific engagement patterns.</p>
+
+            <p class="project-label">Stack</p>
+            <ul class="tag-list tag-list--sm">
+              <li>JavaScript</li>
+              <li>Chart.js</li>
+              <li>Data Analysis</li>
+              <li>Visualization</li>
+            </ul>
+
+            <p class="project-label">Outcome</p>
+            <p>A single view translating cross-platform engagement data into concrete recommendations for content strategy.</p>
+          </article>
+
+          <article class="project-card reveal">
+            <p class="project-category">Design Systems <span aria-hidden="true">·</span> Branding</p>
+            <h3>The Barkery — Brand Identity System</h3>
+
+            <p class="project-label">Problem</p>
+            <p>A concept retail brand needed a complete identity that stayed consistent across print, digital, packaging, and campaign work.</p>
+
+            <p class="project-label">What I built</p>
+            <p>An end-to-end identity system: creative brief, logo suite, stationery, packaging, advertising campaign, merchandise, website mockups, animated logo, and a printed brand standards manual.</p>
+
+            <p class="project-label">Stack</p>
+            <ul class="tag-list tag-list--sm">
+              <li>Illustrator</li>
+              <li>Photoshop</li>
+              <li>Brand Systems</li>
+              <li>Art Direction</li>
+            </ul>
+
+            <p class="project-label">Outcome</p>
+            <p>A documented system with rules specific enough for another designer to extend the brand without direction.</p>
+
+            <div class="project-links">
+              <a href="barkery/brand%20standards%20manual_finalimage.pdf" target="_blank" rel="noopener">Brand manual <span class="arrow" aria-hidden="true">→</span></a>
+              <a href="barkery/The%20Barkery%20Brand%20Presentation.pdf" target="_blank" rel="noopener">Presentation <span class="arrow" aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= CERTIFICATIONS ============================= -->
+    <section id="certifications" class="section section--tint" aria-labelledby="certifications-heading">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">04 — Certifications</p>
+          <h2 id="certifications-heading">Certifications</h2>
+        </header>
+
+        <ul class="cert-grid">
+          <li class="cert-card reveal">
+            <span class="cert-logo-fallback" aria-hidden="true">AWS</span>
+            <p class="cert-name">AWS Cloud Quest: Cloud Practitioner — Training Badge</p>
+            <p class="cert-issuer">Amazon Web Services <span aria-hidden="true">·</span> 2026</p>
+          </li>
+          <li class="cert-card reveal">
+            <img src="coursera.png" alt="Coursera logo" />
+            <p class="cert-name">Google Data Analytics Professional Certificate</p>
+            <p class="cert-issuer">Coursera <span aria-hidden="true">·</span> 2025</p>
+          </li>
+          <li class="cert-card reveal">
+            <img src="oracle.png" alt="Oracle logo" />
+            <p class="cert-name">Oracle Cloud Infrastructure Certified Foundations Associate</p>
+            <p class="cert-issuer">Oracle <span aria-hidden="true">·</span> 2023</p>
+          </li>
+          <li class="cert-card reveal">
+            <img src="udemy.png" alt="Udemy logo" />
+            <p class="cert-name">Microsoft Power BI Desktop for Business Intelligence</p>
+            <p class="cert-issuer">Udemy <span aria-hidden="true">·</span> 2023</p>
+          </li>
+          <li class="cert-card reveal">
+            <img src="nyu.png" alt="New York University logo" />
+            <p class="cert-name">NYUx DBMS.1: Introduction to Database Queries</p>
+            <p class="cert-issuer">New York University <span aria-hidden="true">·</span> 2020</p>
+          </li>
+          <li class="cert-card reveal">
+            <img src="harvard.png" alt="Harvard University logo" />
+            <p class="cert-name">CS50: Introduction to Computer Science</p>
+            <p class="cert-issuer">Harvard University <span aria-hidden="true">·</span> 2020</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================= EDUCATION & LEADERSHIP ============================= -->
+    <section id="education" class="section" aria-labelledby="education-heading">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">05 — Education</p>
+          <h2 id="education-heading">Education &amp; Leadership</h2>
+        </header>
+
+        <div class="edu-layout">
+          <div class="edu-column reveal">
+            <h3 class="subsection-heading subsection-heading--flush">Education</h3>
+
+            <div class="school">
+              <div class="school-head">
+                <div class="school-logo">
+                  <img src="rpi.png" alt="Rensselaer Polytechnic Institute logo" />
+                </div>
+                <div>
+                  <h4>Rensselaer Polytechnic Institute</h4>
+                  <p class="school-meta">Troy, NY</p>
+                </div>
+              </div>
+
+              <div class="degree">
+                <p class="degree-title">Master of Science</p>
+                <p class="degree-field">Data Science &amp; Data Analytics</p>
+                <p class="degree-meta">2026 <span aria-hidden="true">·</span> GPA 3.97 / 4.0</p>
+              </div>
+
+              <div class="degree">
+                <p class="degree-title">Bachelor of Science</p>
+                <p class="degree-field">Computer Science + Information Technology &amp; Web Science <span class="degree-minor">Minor in Graphic Design</span></p>
+                <p class="degree-meta">2025 <span aria-hidden="true">·</span> GPA 3.6 / 4.0 <span aria-hidden="true">·</span> Dean's Honor List</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-column reveal">
+            <h3 class="subsection-heading subsection-heading--flush">Leadership at RPI</h3>
+
+            <ul class="leadership-list">
+              <li>
+                <p class="leadership-org">Association for Computing Machinery — Women in Computing</p>
+                <p class="leadership-title">President <span class="leadership-prior">previously Webmaster</span></p>
+                <p class="leadership-dates">Jan 2023 – May 2025</p>
+                <p>Led the chapter across 10+ initiatives and built partnerships with 5+ campus organizations, growing technical community and mentorship for women in computing.</p>
               </li>
-              <li>Designing and consolidating a commissions data engine to unify data from multiple systems, supporting improved reporting and data consistency
+              <li>
+                <p class="leadership-org">ITWS Student Leadership Council</p>
+                <p class="leadership-title">President <span class="leadership-prior">previously Social Media Chair</span></p>
+                <p class="leadership-dates">Apr 2023 – Apr 2025</p>
+                <p>Served as primary liaison between students and program leadership, aligning council initiatives with program goals to improve the student experience.</p>
               </li>
-              <li>Creating centralized middleware documentation and architecture diagrams, consolidating system knowledge into a single reference for cross-team use. Additionally, acting as a business analyst for two intakes. </li>
+              <li>
+                <p class="leadership-org">Rensselaer Union</p>
+                <p class="leadership-title">Social Media Manager</p>
+                <p class="leadership-dates">Aug 2025 – Present</p>
+                <p>Produced branding and social content for campus-wide programming, developing visual materials that kept communication consistent across channels.</p>
+              </li>
             </ul>
           </div>
-        <div class="experience-list">
-          <div class="experience-card">
-            <div class="exp-header">
-              <img src="nyl.png" alt="NYL Logo" />
-              <div>
-                <h3>Technology Analyst Intern</h3>
-                <p class="company-location">New York Life – New York, NY</p>
-                <p class="exp-date">May 2025 – Aug 2025</p>
-              </div>
-            </div>
-            <ul>
-              <li>Designed and documented architecture diagrams for multiple use cases and presented to Security and Enterprise Architecture boards to drive approvals.
-              </li>
-              <li>Built a relational database and data dictionary (1K+ rows, 10 metadata fields) for the Annuities Data Warehouse, and created a custom OpenAI GPT for natural language querying.
-              </li>
-              <li>Led ETL processing of 100K+ annuities records using Toad for Oracle, performing data preparation and co-developing a predictive AI model in AWS SageMaker.
-              </li>
-            </ul>
-          </div>
-      
-          <div class="experience-card">
-            <div class="exp-header">
-              <img src="jnj.png" alt="J&J Logo" />
-              <div>
-                <h3>Performance Management – Digital Data & Analytics Co-Op</h3>
-                <p class="company-location">Johnson & Johnson Innovative Medicine – Remote</p>
-                <p class="exp-date">Aug 2024 – May 2025</p>
-              </div>
-            </div>
-            <ul>
-              <li>Facilitated migration from InfoPath to PowerApps by gathering requirements and improving data collection.</li>
-              <li>Developed LookerStudio dashboards for 18 sites, improving GMP compliance and decision-making.</li>
-              <li>Created dashboards with actionable recommendations, saving $4000+ in projected costs.</li>
-            </ul>
-          </div>
-      
-          <div class="experience-card">
-            <div class="exp-header">
-              <img src="jnj.png" alt="J&J Logo" />
-              <div>
-                <h3>JJT: Technology & Data Insights Intern</h3>
-                <p class="company-location">Johnson & Johnson Innovative Medicine – Titusville, NJ</p>
-                <p class="exp-date">May 2024 – Aug 2024</p>
-              </div>
-            </div>
-            <ul>
-              <li>Reduced dashboard creation time by 75% via AI-based PowerBI Self-Serve Tool.</li>
-              <li>Boosted AI insight accuracy by 30% through prompt engineering and UAT collaboration.</li>
-              <li>Led 10+ events as TICC Social Pillar with 90%+ positive intern feedback.</li>
-            </ul>
-          </div>
-      
-          <div class="experience-card">
-            <div class="exp-header">
-              <img src="jnj.png" alt="J&J Logo" />
-              <div>
-                <h3>Enterprise Quality: Emerging Technologies & Solutions Intern</h3>
-                <p class="company-location">Johnson & Johnson Quality & Compliance – Bridgewater, NJ</p>
-                <p class="exp-date">May 2023 – Aug 2023</p>
-              </div>
-            </div>
-            <ul>
-              <li>Improved SharePoint usability for 50+ team members by centralizing contact information.</li>
-              <li>Built 6 dashboards and R mockups to explore SCIA data and uncover insights.</li>
-              <li>Streamlined document processing (40+ docs) using Python, Excel macros, and Power Query.</li>
-            </ul>
-          </div>
-        </div> 
-      
-        <h3>Skills</h3>
-      
-        <div class="skills-category">
-          <h4>Programming Languages & Technologies</h4>
-          <div class="skills-grid">
-            <div class="skill-card"><img src="java.png" alt=""><span>Java</span></div>
-            <div class="skill-card"><img src="python.png" alt=""><span>Python</span></div>
-            <div class="skill-card"><img src="cpp.png" alt=""><span>C++</span></div>
-            <div class="skill-card"><img src="html.png" alt=""><span>HTML</span></div>
-            <div class="skill-card"><img src="css.png" alt=""><span>CSS</span></div>
-            <div class="skill-card"><img src="react.png" alt=""><span>React</span></div>
-            <div class="skill-card"><img src="js.png" alt=""><span>JavaScript</span></div>
-            <div class="skill-card"><img src="typescript.png" alt=""><span>TypeScript</span></div>
-            <div class="skill-card"><img src="php.png" alt=""><span>PHP</span></div>
-            <div class="skill-card"><img src="awsr.png" alt=""><span>AWS Redshift</span></div>
-          </div>
         </div>
-      
-        <div class="skills-category">
-          <h4>Data Visualization</h4>
-          <div class="skills-grid">
-            <div class="skill-card"><img src="pb.png" alt=""><span>PowerBI</span></div>
-            <div class="skill-card"><img src="tableau.png" alt=""><span>Tableau</span></div>
-            <div class="skill-card"><img src="looker.png" alt=""><span>Looker Studio</span></div>
-            <div class="skill-card"><img src="R.png" alt=""><span>R</span></div>
+      </div>
+    </section>
+
+    <!-- ============================= CONTACT ============================= -->
+    <section id="contact" class="section section--dark" aria-labelledby="contact-heading">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow eyebrow--light">06 — Contact</p>
+          <h2 id="contact-heading">Let's Connect</h2>
+        </header>
+
+        <div class="contact-body reveal">
+          <p class="contact-copy">I'm always interested in connecting around technology, data, architecture, product, and emerging technology.</p>
+
+          <a class="contact-email" href="mailto:sanyaj863@gmail.com">sanyaj863@gmail.com</a>
+
+          <div class="contact-actions">
+            <a class="btn btn--light" href="mailto:sanyaj863@gmail.com">Get In Touch</a>
+            <a class="btn btn--outline" href="https://www.linkedin.com/in/sanyajoseph/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn btn--outline" href="https://github.com/sanyaj09" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn btn--outline" href="Sanya%20Joseph%20Resume_Jan2026.pdf" target="_blank" rel="noopener">Download Resume</a>
           </div>
+
+          <p class="contact-location">Based in the New York / New Jersey area</p>
         </div>
-      
-        <div class="skills-category">
-          <h4>Databases</h4>
-          <div class="skills-grid">
-            <div class="skill-card"><img src="mysql.png" alt=""><span>MySQL</span></div>
-            <div class="skill-card"><img src="postgre.png" alt=""><span>PostgreSQL</span></div>
-            <div class="skill-card"><img src="mongo.png" alt=""><span>MongoDB</span></div>
-            <div class="skill-card"><img src="etl.png" alt=""><span>ETL & Data Pipelining</span></div>
-          </div>
-        </div>
-      
-        <div class="skills-category">
-          <h4>Tools</h4>
-          <div class="skills-grid">
-            <div class="skill-card"><img src="git.png" alt=""><span>Git</span></div>
-            <div class="skill-card"><img src="github.png" alt=""><span>Github</span></div>
-            <div class="skill-card"><img src="linux.png" alt=""><span>Linux</span></div>
-            <div class="skill-card"><img src="postman.png" alt=""><span>Postman</span></div>
-            <div class="skill-card"><img src="json.png" alt=""><span>JSON</span></div>
-          </div>
-        </div>
+      </div>
+    </section>
+  </main>
 
-      </section>
-
-      <section id="projects" class="content-section">
-        <h2>Projects</h2>
-      
-        <div class="projects-grid">
-      
-      
-          <!-- ================= PROJECT 1 ================= -->
-      
-          <div class="project-card">
-      
-            <h3>The Barkery – Brand Identity Design</h3>
-      
-            <p>
-              The Barkery is a brand identity project created in my Spring 2024 Brand Identity Design class.
-              The project included a full creative brief, mood board, logo design, stationery package,
-              advertising campaign, merchandise, website mockups, package designs, animated logo,
-              and a printed brand standards manual.
-            </p>
-      
-            <div class="project-tags">
-              <span>Branding</span>
-              <span>Illustrator</span>
-              <span>Photoshop</span>
-              <span>Logo Design</span>
-              <span>Graphic Design</span>
-            </div>
-      
-            <div class="project-buttons">
-              <a href="barkery/brand standards manual_finalimage.pdf" target="_blank">Click here to see Brand Manual</a>
-              <a href="barkery/The Barkery Brand Presentation.pdf" target="_blank">Click here to see the Presentation</a>
-            </div>
-      
-          </div>
-      
-      
-      
-          <!-- ================= PROJECT 2 ================= -->
-      
-          <div class="project-card">
-      
-            <h3>Food & Landmarks Passport - Interactive Passport</h3>
-      
-            <p>
-              This project explores the relationship between food and architecture as cultural symbols.
-              It is an interactive visual dictionary of global foods and landmarks from 15 countries,
-              designed using Illustrator, HTML, CSS, Javascript, and built as an interactive web experience.
-            </p>
-      
-            <div class="project-tags">
-              <span>Illustrator</span>
-              <span>Figma</span>
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-            </div>
-      
-            <div class="project-buttons">
-              <a href="passport/index.html" target="_blank">Open Interactive Project</a>
-            </div>
-      
-          </div>
-
-          <!-- ================= PROJECT 3 ================= -->
-      
-          <div class="project-card">
-      
-            <h3>Social Media Analytics Dashboard</h3>
-      
-            <p>
-              This project analyzes viral social media trends across TikTok, Instagram, Twitter,
-              and YouTube. Using data analytics and visualization, I built an interactive dashboard
-              and visual guide to help creators understand engagement patterns and optimize content.
-            </p>
-      
-            <div class="project-tags">
-              <span>Data Analytics</span>
-              <span>Dashboard</span>
-              <span>JavaScript</span>
-              <span>Chart.js</span>
-              <span>Visualization</span>
-            </div>
-      
-            <div class="project-buttons">
-              <a href="dashboard/index.html" target="_blank">Open Dashboard</a>
-              <a href="files/socialmedia-report.pdf" target="_blank">View Report</a>
-            </div>
-      
-          </div>
-      
-      
-        </div>
-      </section>
-
-      <section id="certifications" class="content-section">
-        <h2>Certifications</h2>
-        <div class="certifications-grid">
-      
-          <div class="cert-card">
-            <div class="cert-logo">
-              <img src="coursera.png" alt="Coursera" />
-            </div>
-            <div class="cert-content">
-              <h3>Google Data Analytics Professional Certificate</h3>
-              <p>Coursera • 2025</p>
-            </div>
-          </div>
-      
-          <div class="cert-card">
-            <div class="cert-logo">
-              <img src="oracle.png" alt="AWS" />
-            </div>
-            <div class="cert-content">
-              <h3>Oracle Cloud Infrastructure 2023 Certified Foundations Associate</h3>
-              <p>Oracle • 2023</p>
-            </div>
-          </div>
-      
-          <div class="cert-card">
-            <div class="cert-logo">
-              <img src="udemy.png" alt="IBM" />
-            </div>
-            <div class="cert-content">
-              <h3>Microsoft Power BI Desktop for Business Intelligence</h3>
-              <p>Udemy • 2023</p>
-            </div>
-          </div>
-
-          <div class="cert-card">
-            <div class="cert-logo">
-              <img src="nyu.png" alt="IBM" />
-            </div>
-            <div class="cert-content">
-              <h3>NYUx.DBMS.1: Introduction to Database Queries</h3>
-              <p>New York University • 2020</p>
-            </div>
-          </div>
-
-          <div class="cert-card">
-            <div class="cert-logo">
-              <img src="harvard.png" alt="IBM" />
-            </div>
-            <div class="cert-content">
-              <h3>CS50: CS50's Introduction to Computer Science, Harvard University</h3>
-              <p>Harvard University • 2020</p>
-            </div>
-          </div>
-      
-        </div>
-      </section>
-
-    </main>
-  </div>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Sanya Joseph</p>
+      <ul class="footer-links">
+        <li><a href="https://www.linkedin.com/in/sanyajoseph/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/sanyaj09" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="mailto:sanyaj863@gmail.com">Email</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2026 Sanya Joseph</p>
+    </div>
+  </footer>
 
   <script>
-    const tabs = document.querySelectorAll('.tab-link');
-    const sections = document.querySelectorAll('.content-section');
+    (function () {
+      var header = document.querySelector('.site-header');
+      var toggle = document.querySelector('.nav-toggle');
+      var navLinks = document.querySelector('.nav-links');
+      var links = Array.prototype.slice.call(navLinks.querySelectorAll('a'));
+      var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
-    tabs.forEach(tab => {
-      tab.addEventListener('click', e => {
-        e.preventDefault();
-        tabs.forEach(t => t.classList.remove('active'));
-        sections.forEach(s => s.classList.remove('active'));
+      /* ---------- mobile menu ---------- */
+      function closeMenu() {
+        navLinks.classList.remove('open');
+        toggle.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Open navigation menu');
+      }
 
-        tab.classList.add('active');
-        const target = document.querySelector(tab.getAttribute('href'));
-        target.classList.add('active');
+      toggle.addEventListener('click', function () {
+        var open = navLinks.classList.toggle('open');
+        toggle.classList.toggle('is-open', open);
+        toggle.setAttribute('aria-expanded', String(open));
+        toggle.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
       });
-    });
+
+      links.forEach(function (link) {
+        link.addEventListener('click', closeMenu);
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && navLinks.classList.contains('open')) {
+          closeMenu();
+          toggle.focus();
+        }
+      });
+
+      window.addEventListener('resize', function () {
+        if (window.innerWidth > 900) closeMenu();
+      });
+
+      /* ---------- scroll spy ---------- */
+      var sections = links
+        .map(function (link) { return document.querySelector(link.getAttribute('href')); })
+        .filter(Boolean);
+
+      var ticking = false;
+
+      function setActive() {
+        ticking = false;
+        var offset = header.offsetHeight + 24;
+        var current = null;
+
+        sections.forEach(function (section) {
+          if (section.getBoundingClientRect().top <= offset) current = section;
+        });
+
+        // At the very bottom of the page, always highlight the last section.
+        if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 2) {
+          current = sections[sections.length - 1];
+        }
+
+        links.forEach(function (link) {
+          var isActive = current && link.getAttribute('href') === '#' + current.id;
+          link.classList.toggle('active', !!isActive);
+          if (isActive) {
+            link.setAttribute('aria-current', 'true');
+          } else {
+            link.removeAttribute('aria-current');
+          }
+        });
+      }
+
+      window.addEventListener('scroll', function () {
+        if (!ticking) {
+          ticking = true;
+          window.requestAnimationFrame(setActive);
+        }
+      }, { passive: true });
+
+      window.addEventListener('resize', setActive);
+      setActive();
+
+      /* ---------- typewriter hero name ---------- */
+      var typer = document.querySelector('.typewriter');
+
+      if (typer && !reduceMotion.matches) {
+        var typeTarget = typer.querySelector('.tw-text');
+        var fullName = typeTarget.textContent;
+        var charIndex = 0;
+
+        typeTarget.textContent = '';
+        typer.classList.add('is-typing');
+
+        window.setTimeout(function typeStep() {
+          charIndex += 1;
+          typeTarget.textContent = fullName.slice(0, charIndex);
+
+          if (charIndex < fullName.length) {
+            window.setTimeout(typeStep, 62);
+          } else {
+            typer.classList.remove('is-typing');
+            typer.classList.add('is-done');
+          }
+        }, 280);
+      }
+
+      /* ---------- reveal on scroll ---------- */
+      var revealables = document.querySelectorAll('.reveal');
+
+      if (reduceMotion.matches || !('IntersectionObserver' in window)) {
+        revealables.forEach(function (el) { el.classList.add('in-view'); });
+      } else {
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('in-view');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { rootMargin: '0px 0px -10% 0px', threshold: 0.08 });
+
+        revealables.forEach(function (el) { observer.observe(el); });
+      }
+    })();
   </script>
 </body>
 </html>
